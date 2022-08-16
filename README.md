@@ -1,4 +1,4 @@
-## BOGaming Laravel 
+## NYGaming Laravel 
 NewYorkGaming Seamless integration API library package for laravel.
 
 ![Packagist Downloads](https://img.shields.io/packagist/dt/newyorkgaming/nygaming-laravel?style=plastic) ![Packagist Stars](https://img.shields.io/packagist/stars/newyorkgaming/nygaming-laravel?style=plastic)
