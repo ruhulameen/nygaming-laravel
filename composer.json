@@ -1,0 +1,19 @@
+{
+    "name": "newyorkgaming/nygaming-laravel",
+    "description": "NewYorkGaming API library package for laravel.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ruhul\\NYGaming\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ruhul Ameen",
+            "email": "ruhulameen788@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
