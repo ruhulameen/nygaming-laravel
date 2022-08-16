@@ -1,16 +1,16 @@
 ## BOGaming Laravel 
 NewYorkGaming Seamless integration API library package for laravel.
 
-![Packagist Downloads](https://img.shields.io/packagist/dt/ruhul/nyg-laravel?style=plastic) ![Packagist Stars](https://img.shields.io/packagist/stars/ruhul/nygg-laravel?style=plastic)
+![Packagist Downloads](https://img.shields.io/packagist/dt/newyorkgaming/nygaming-laravel?style=plastic) ![Packagist Stars](https://img.shields.io/packagist/stars/newyorkgaming/nygaming-laravel?style=plastic)
 ###### Complete documantation coming soon.........
 
 ### Quick Installation
 
 ```bash
-composer require ruhul/nyg-laravel
+composer require newyorkgaming/nygaming-laravel
 ```
 
-Once the ruhul/nyg-laravel package has been installed, you need to install using this artisan command:
+Once the newyorkgaming/nygaming-laravel package has been installed, you need to install using this artisan command:
 ```bash
 php artisan nygaming:install
 ```
@@ -18,29 +18,11 @@ php artisan nygaming:install
 
 ```php
 // fetch all games
-return NeyWorkGamiang::getGamelist([
-'currency' => 'USD'
-]);
+return NeyWorkGamiang::getGamelist();
 
-
-// create player account to blueoceangaming system
-return NeyWorkGaming::createPlayer([
-'user_username' => 'xxxxxx',
-'user_password' => 'xxxxxx',
-'currency'      => 'USD'
-]);
 
 // lauchning game
-return NeyWorkGaming::getGame([
-'user_username' => 'xxxxxx',
-'user_password' => 'xxxxxx',
-'currency'      => 'USD',
-'lang'          => 'en', // by default english
-'game_id'       => 'xxxx',
-'homeurl'       => 'http://yoursite.com',
-'cashierurl'    => 'http://yousite.com/cashier',
-'play_for_fun'  => true, // if false then real mode
-]);
+return NeyWorkGaming::makeGameLink($gameId);
 
 ```
 
